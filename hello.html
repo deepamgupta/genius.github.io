@@ -6,5 +6,56 @@
 </head>
 <body>
 HELLO GENIUS!!!
+	<h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="email"> email </label>
+        <div>
+             <input type="email" name="myEmail" id="email">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+        <input type="month" name="enter month" id="mymonth">
+        <label for="mymonth">month</label>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="60" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+
+            <input type="submit" value="Submit Now">
+  
+               <input type="reset" value="Reset Now">
+        
+    </form>
 </body>
 </html>
